@@ -33,7 +33,7 @@ Open **4 terminals** and run the following:
 
 ---
 
-### 1. Start RealSense Camera
+## 1. Start RealSense Camera
 
 ```bash
 ros2 launch realsense2_camera rs_launch.py \
@@ -42,7 +42,7 @@ ros2 launch realsense2_camera rs_launch.py \
   enable_sync:=true \
   align_depth.enable:=true
 
-### 2. Start Aruco Marker Sensor Detections
+## 2. Start Aruco Marker Sensor Detections
 
 ros2 run aruco_opencv aruco_tracker_autostart --ros-args \
   -p cam_base_topic:=/camera/camera/color/image_raw \
@@ -51,12 +51,12 @@ ros2 run aruco_opencv aruco_tracker_autostart --ros-args \
   -p image_is_rectified:=True \
   -p corner_refinement_method:=CORNER_REFINE_SUBPIX
 
-### 3. Start the excavator node
+## 3. Start the excavator node
 
 python3 excavator_node.py
 
 
-### 4. Start the seeking code
+## 4. Start the seeking code
 
 source ~/venvs/roboclaw/bin/activate
 python3 spin_seek2.py

@@ -5,7 +5,7 @@ This repository contains a complete ROS 2 autonomy pipeline for marker-based nav
 
 The system uses:
 - Intel RealSense D435i camera for vision
-- ArUco marker detection (OpenCV)
+- ArUco marker detection (OpenCV): https://chev.me/arucogen/ 4x4(50, 100, 250, 1000) was used
 - RoboClaw motor controller for drive
 - Basicmicro motor controller for excavation arm
 

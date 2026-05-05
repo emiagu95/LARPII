@@ -27,7 +27,7 @@ SEARCH → APPROACH → ALIGN → STOP → ARM ACTION → BACKUP → NEXT TARGET
 
 ---
 
-## How to Run (Full Pipeline)
+## How to Run Autonomous Cycles (Full Pipeline)
 
 Open **4 terminals** and run the following:
 

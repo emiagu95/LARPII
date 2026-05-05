@@ -42,7 +42,7 @@ ros2 launch realsense2_camera rs_launch.py \
   enable_sync:=true \
   align_depth.enable:=true
 
-## 2. Start ArUco Marker Sensor Detections
+## 2. Start RealSense Camera
 
 ```bash
 ros2 run aruco_opencv aruco_tracker_autostart --ros-args \
